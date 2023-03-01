@@ -22,7 +22,7 @@ public class Main {
                     int c = str * str2;
                     System.out.println("Итогом умножения будет: " + c);
                 } else if (str3 == 4) {
-                    double d = str / str2;
+                    double d = (double) str / str2;
                     System.out.println("Итог деления будет: " + d);
                 }
             }catch (ArithmeticException e){
